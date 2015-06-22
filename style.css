@@ -21,10 +21,28 @@ h3 {
 	border-bottom: 1px solid #7F8C8D;
 }
 
+h4 {
+	color: #7F8C8D;
+	text-transform: uppercase;
+}
+
+h5 {
+	color: #34495E;
+	margin: 0px;
+	padding: 5px;
+}
+
 p {
 	font-size: 14px;
 }
 
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
 
 .container {
 	width: 80vw;
@@ -106,7 +124,7 @@ p {
 }
 
 .main-content {
-	display: block;```
+	display: block;
 }
 
 .main-content a {
@@ -123,13 +141,13 @@ p {
 	text-align: left;
 	padding: 5px;
 	background: #BDC3C7;
-	border: 1px solid black;
+	border: 1px solid #7F8C8D;
 }
 
 .table-default td {
 	text-align: left;
 	padding: 10px;
-	border: 1px solid black;
+	border: 1px solid #7F8C8D;
 }
 
 .button {
@@ -137,4 +155,90 @@ p {
 	color: #ECF0F1;
 	border: none;
 	padding: 10px 50px 10px 50px;
+}
+
+.button-big {
+	background-color: #C0392B;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.comment-section {
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	border: none;
+}
+
+.comment-line {
+	overflow: hidden;
+}
+
+.comment-label {
+	display: block;
+	width: 120px;
+	padding: 10px;
+	color: #7F8C8D;
+	text-align: right;
+}
+
+.comment-oneline {
+	width: 300px;
+}
+
+.media-list {
+	margin-top: 10px;
+}
+
+.media-list li {
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+.list-nested li:last-child{
+	margin-bottom: 20px;
+}
+.list-nested li ul {
+  margin-left: 20px;
+  padding-left: 10px;
+  border-left: 1px solid #CCC;
+}
+
+.this-media-block {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.block-username {
+  margin: 7px 0;
+  padding-left: 65px;
+}
+.block-date {
+  padding-left: 15px;
+  font-style: italic;
+  color: #999;
+}
+
+.user-picture {
+	width: 50px;
+	height: 50px;
+}
+
+.footer {
+	margin-top: 50px;
+	background-color: #27AE60;
+	height: 10px;
+}
+
+.sidebar-nav {
+	font-weight: regular;
+}
+
+.sidebar-nav ul {
+	margin: 0;
+	padding: 5px;
+}
+
+.sidebar-header {
+	font-size: 14px;
+	color: #7F8C8D;
 }
